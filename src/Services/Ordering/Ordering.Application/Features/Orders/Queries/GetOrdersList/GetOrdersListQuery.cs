@@ -14,9 +14,5 @@ namespace Ordering.Application.Features.Orders.Queries.GetOrdersList
         {
             UserName = userName ?? throw new ArgumentNullException(nameof(userName));
         }
-
-        
-
-
     }
 }

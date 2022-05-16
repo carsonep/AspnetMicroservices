@@ -2,16 +2,17 @@
   "profiles": {
     "Discount.Grpc": {
       "commandName": "Project",
+      "applicationUrl": "http://localhost:5003",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      },
-      "dotnetRunMessages": "true",
-      "applicationUrl": "http://localhost:5003"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "PROTOBUF_TOOLS_OS": "macosx",
+        "PROTOBUF_TOOLS_CPU": "x64"
+      }
     },
     "Docker": {
       "commandName": "Docker",
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
-      "publishAllPorts": true
+      "environmentVariables": {}
     }
   }
 }
